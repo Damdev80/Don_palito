@@ -7,14 +7,6 @@
     --color-secondary: #ffa242;
     --color-tertiary: #ff6b6b;
 
-    --animate-navbar: @keyframes movimiento {
-        0% {
-            top: 0px;
-        }
-        100% {
-            position: sticky;
-            backdrop-filter: blur(10px); /* Aplica el desenfoque */
-        }
-    }
+    
 }
 
