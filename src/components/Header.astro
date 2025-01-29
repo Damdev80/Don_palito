@@ -3,21 +3,24 @@ import { VscSearch } from "react-icons/vsc";
 import { VscAccount } from "react-icons/vsc";
 import { IoCartOutline } from "react-icons/io5";
 import { AiOutlineMenu } from "react-icons/ai";
+
+
+
 ---
 
 <header>
-    <nav class="w-full h-20 mt-10 flex justify-center ">
-        <ul class="bg-secondary w-5/6 h-14 flex justify-evenly items-center backdrop-blur-lg rounded-3xl top-12 fixed ">
+    <nav class="w-full  flex justify-center ">
+        <ul class="bg-white/10 w-5/6 h-14 flex justify-evenly items-center backdrop-blur-lg rounded-3xl top-12 fixed  ">
             <div class="flex grow justify-star">
-                <li><AiOutlineMenu className="text-3xl ml-10"/></li>
+                <li><AiOutlineMenu className="text-3xl ml-10 active:text-4xl transition-all "/></li>
             </div>
             <div class="flex grow justify-center ml-14">
                 <li><img src="/Public/logo.svg" alt="Don Palitos"></li>
             </div>
             <div class="flex grow  justify-evenly">
-                <li><VscSearch className="text-3xl"/></li>
-                <li><VscAccount className="text-3xl"/></li>
-                <li><IoCartOutline className="text-3xl"/></li>
+                <li><VscSearch className="text-3xl active:text-4xl transition-all "/></li>
+                <li><VscAccount className="text-3xl active:text-4xl transition-all "/></li>
+                <li><IoCartOutline className="text-3xl active:text-4xl transition-all "/></li>
             </div>
         </ul>
     </nav>
