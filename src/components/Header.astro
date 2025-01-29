@@ -1,18 +1,23 @@
 ---
-
+import { VscSearch } from "react-icons/vsc";
+import { VscAccount } from "react-icons/vsc";
+import { IoCartOutline } from "react-icons/io5";
+import { AiOutlineMenu } from "react-icons/ai";
 ---
 
 <header>
     <nav class="w-full h-20 mt-10 flex justify-center ">
-        <ul class="bg-secondary w-5/6 h-12 flex justify-evenly items-center backdrop-blur-lg rounded-3xl  ">
-            <div class="flex grow justify-center">
-                <li><a href="#">Inicio</a></li>
+        <ul class="bg-secondary w-5/6 h-14 flex justify-evenly items-center backdrop-blur-lg rounded-3xl animate-navbar ">
+            <div class="flex grow justify-star">
+                <li><AiOutlineMenu className="text-3xl ml-10"/></li>
             </div>
-            <div class="flex grow justify-center">
-                <li><img src="/Public/logo.svg" alt=""></li>
+            <div class="flex grow justify-center ml-14">
+                <li><img src="/Public/logo.svg" alt="Don Palitos"></li>
             </div>
-            <div class="flex grow justify-center">
-                <li><a href="#">Contacto</a></li>
+            <div class="flex grow  justify-evenly">
+                <li><VscSearch className="text-3xl"/></li>
+                <li><VscAccount className="text-3xl"/></li>
+                <li><IoCartOutline className="text-3xl"/></li>
             </div>
         </ul>
     </nav>
